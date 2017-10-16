@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>FB WEB</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/controller.js"></script>
+</head>
+
+<script>
+//Call the yourAjaxCall() function every 1000 millisecond
+setInterval("_checkFace()",15000);
+</script>
+
+<body onload="initFDWebAPP();">
+
+<div class="container-fluid bg-1 text-center" style="margin-top:10px" id="main">
+  <h3>Qmatic Customer Experience</h3>
+</div>
+
+<div class="container-fluid bg-1 text-center" style="margin-top:30px">
+  <h3><label for="welcomeTxt"></label></h3>
+</div>
+
+<div style="margin-top:50px;" class="text-center" id="langlabel" >
+<label for="exampleFormControlInput1">Please Select Your Language</label>
+</div>
+
+<div class="container-fluid bg-2 text-center" id="langselc">
+<button type="button" class="btn btn-danger btn-lg">English</button>
+or
+<button type="button" class="btn btn-danger btn-lg">Arabic</button>
+</div>
+
+<div style="margin-top:50px"></div>
+
+</div>
+
+<div class="container-fluid bg-3 text-center" id="service">
+<label for="exampleFormControlInput1">Please Select Your Service</label>
+<form>
+  <div class="form-group">
+ <button type="button" class="btn btn btn-success btn-lg">Service 1</button>
+  </div>
+  <div class="form-group">
+  <button type="button" class="btn btn btn-success btn-lg">Service 2</button>
+  </div>
+  <div class="form-group">
+  <button type="button" class="btn btn btn-success btn-lg">Service 3</button>
+  </div>
+   <div class="form-group">
+  <button type="button" class="btn btn btn-success btn-lg">Service 4</button>
+  </div>
+   <div class="form-group">
+  <button type="button" class="btn btn btn-success btn-lg">Service 5</button>
+  </div>
+
+</form>
+</div>
+
+</body>
+</html>
